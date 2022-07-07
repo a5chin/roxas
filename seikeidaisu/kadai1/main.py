@@ -1,11 +1,13 @@
 import argparse
-from typing import Tuple
 from pathlib import Path
+from typing import Tuple
 
+import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns; sns.set()
+import seaborn as sns
+
+sns.set()
 
 
 def make_parser():
@@ -13,8 +15,12 @@ def make_parser():
 
     parser.add_argument("--out_dir", type=str, help="plese set output dir")
 
-    parser.add_argument("--in_file", default="report.csv", type=str, help="plese set filename")
-    parser.add_argument("--out_file", default="out.png", type=str, help="plese set filename")
+    parser.add_argument(
+        "--in_file", default="report.csv", type=str, help="plese set filename"
+    )
+    parser.add_argument(
+        "--out_file", default="out.png", type=str, help="plese set filename"
+    )
 
     return parser.parse_args()
 
