@@ -1,0 +1,76 @@
+\documentclass[a4paper]{ujarticle}
+\renewcommand{\baselinestretch}{0.85}
+\usepackage[dvipdfmx]{graphicx,hyperref}
+\usepackage[top=1.5cm, bottom=1.5cm, left=1.5cm, right=1.5cm]{geometry}
+\usepackage{listings}
+\usepackage{indentfirst}
+
+
+\renewcommand{\abstractname}{概要}
+\renewcommand{\contentsname}{目次}
+\renewcommand{\refname}{参考文献}
+
+\renewcommand{\lstlistingname}{ソースコード}
+\renewcommand{\figurename}{図}
+\renewcommand{\tablename}{表}
+
+\lstset{
+    language=python,
+	frame=tRBl,
+	captionpos=b,
+	numbers=left,
+	tabsize=2,
+    columns=[l]{fullflexible},
+    breaklines=true,
+}
+
+\hypersetup{
+	setpagesize=false,
+	bookmarksnumbered=true,
+	bookmarksopen=true,
+	colorlinks=true,
+	linkcolor=black,
+	citecolor=black
+}
+
+\begin{document}
+    \begin{flushright}
+        生涯スポーツ理論実習\\
+        22年7月16日(土)
+    \end{flushright}
+
+    \begin{center}
+        {\Large	サッカーの起源}
+    \end{center}
+
+    \begin{flushright}
+        {\large 2CDA1229 平田 大智}\\
+    \end{flushright}
+
+    \section{初めに}
+    以降では，サッカーの起源について調べてまとめ，それを生涯スポーツ理論実習のレポートして提出する．
+
+    \section{サッカーとは}
+        \label{sec:soccer}
+        Wikipedia\footnote{\url{https://ja.wikipedia.org/wiki/soccer}}によると，サッカーとは\textbf{サッカーボールを用いて1チームが11人の計2チームの間で行われるスポーツ競技の1つである}とされている．しかし，\textbf{ボールを蹴るスポーツ}，\textbf{ルールを決めてボールを足で扱うスポーツ}などと明確な定義付けはされていないため，まさにこの瞬間にサッカーというスポーツが誕生したという起源を知ることは不可能である．
+
+	\section{サッカーの4つの起源}
+        \ref{sec:soccer}節で紹介した様にサッカーの起源を明確に定義することは不可能であるが，現在の有力な起源の説として4つ存在することを調査した．
+
+        \subsection{中国の蹴鞠}
+            \label{sec:kemari}
+            1つ目の説は中国の伝統文化として有名な蹴鞠である．Wikipedia\footnote{\url{https://ja.wikipedia.org/wiki/蹴鞠}} によると蹴鞠らしきものは，\textbf{4000年近く前の華北に展開した殷の時代の記録に現われ，雨乞いの儀式と結びついて行われていたと言われる．雨が降らないのは天と地のバランスが崩れているからであり，物が天と地の中間である空中に留まり続けることで天と地の媒介となると考え，毬を空中に蹴り上げる儀式を行なうことで，両者のバランスを取り戻そうとした}ことが起源である．この儀式が次第に娯楽に変化することで一般の人達の間でも広く親しまれるようになったと考えられている．
+
+        \subsection{イタリアのカルチョ}
+            2つ目の説は，カルチョという遊びである．今回はWikipediaに記載されていなかったが，カルチョとは，\textbf{8世紀以前にイタリアの宮廷で，お金をかけてボールを蹴り合うことで勝敗を決めるスポーツで，イタリア語で「蹴る」を意味する、"calciare"という言葉から来ている}．実際にイタリアではサッカーのことをカルチョと呼んでいるという．
+
+        \subsection{イングランドの戦争の名残}
+            3つ目の説は，イングランドにおいて，切られた首を用いて遊ぶという風習である．とても物騒な話ではあるが，戦争に勝利した際に切られた敵将軍の首を使ってしばしば遊ばれていたという記録が残っている．\ref{sec:kemari}節で紹介した蹴鞠と同様に，一部で親しまれていた風習が徐々に一般市民にも広がっていったとされている．
+
+        \subsection{キリスト教のお祭り}
+            4つ目の説は，17世紀頃にキリスト教で行われていたという記録が残っている\textbf{シュローヴタイド・フットボール}お祭りである．Wikipedia\footnote{\url{https://ja.wikipedia.org/wiki/シュローヴタイド・フットボール}}によると，シュローヴタイド・フットボールとは\textbf{イングランド・ダービーシャー州アッシュボーンにおいて1年に一度，告解の火曜日と灰の水曜日の2日間行われている祭りである}と説明されており，人を殺さない・教会、墓地に入らない以外のルールは特に決められていないという．
+
+    \section{おわりに}
+        今回のレポートを通して，サッカーの知識が増え，観戦やプレーに携わっていきたいとより一層思うようになった．
+
+\end{document}
